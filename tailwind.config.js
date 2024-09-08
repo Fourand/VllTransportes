@@ -9,6 +9,7 @@ export default {
       DEFAULT: "1rem",
     },
     backgroundImage: {
+      quotation: "url('assets/images/quotation-background.jpg')",
       "index-image": "url('assets/images/index-background.jpg')",
       "mobile-index-image": "url('assets/images/mobile-index-background.jpg')",
     },
