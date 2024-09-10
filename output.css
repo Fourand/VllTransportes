@@ -3236,6 +3236,14 @@ body::-webkit-scrollbar-thumb {
     display: flex;
   }
 
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:w-32 {
     width: 8rem;
   }
