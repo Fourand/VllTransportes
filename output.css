@@ -589,6 +589,10 @@ video {
   visibility: visible;
 }
 
+.\!visible {
+  visibility: visible !important;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -924,6 +928,10 @@ video {
   min-height: 30rem;
 }
 
+.min-h-\[35rem\] {
+  min-height: 35rem;
+}
+
 .min-h-\[40rem\] {
   min-height: 40rem;
 }
@@ -938,6 +946,14 @@ video {
 
 .min-h-svh {
   min-height: 100svh;
+}
+
+.min-h-\[10rem\] {
+  min-height: 10rem;
+}
+
+.min-h-\[25rem\] {
+  min-height: 25rem;
 }
 
 .w-1 {
