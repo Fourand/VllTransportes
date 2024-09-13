@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Oferecemos soluções ágeis e comprometidas para transporte nacional e internacional." />
+    <meta name="description" content="Oferecemos soluções ágeis e comprometidas para transporte nacional." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
@@ -13,27 +13,31 @@
   </head>
   <body class="min-h-svh">
     <!-- Hero -->
-    <section class="bg-mobile-index-image md:bg-index-image bg-cover bg-center min-h-[40rem]">
+    <section class="bg-mobile-index-image md:bg-index-image bg-cover bg-center min-h-[25rem]">
       <nav class="p-8 flex justify-between items-center">
-        <a href="index.html">
-          <img src="assets/logo.png" alt="VLL logo" class="w-20 h-auto" />
+        <a href="/">
+          <img src="assets/logo.png" alt="VLL logo" class="w-24 h-auto" />
         </a>
         <div class="inline-flex items-center gap-x-4">
-          <a target="_blank" class="px-6 py-2 text-white bg-red-500 rounded-full" href="https://wa.me/5513974046490?text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os."> Fale Conosco </a>
+          <a target="_blank" class="text-sm md:text-base px-4 md:px-6 py-2 text-white bg-red-500 rounded-full" href="https://wa.me/5513974046491?text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os.">Fale com um Consultor</a>
+          <a href="/quotation/" class="hidden md:inline-flex gap-x-1 p-2 px-4 bg-white text-slate-600 rounded-md">
+            <img src="assets/icons/calculator.svg" alt="calculator icon" class="md:block w-6 h-auto" />
+            <span class="font-medium">Solicitar Cotação</span>
+          </a>
         </div>
       </nav>
-      <div class="flex flex-col justify-center items-center min-h-[30rem] gap-y-4">
-        <h1 class="text-white drop-shadow-lg text-4xl md:text-5xl font-bold text-center">
+      <div class="flex flex-col justify-center items-center min-h-[10rem] gap-y-4">
+        <h1 class="text-white drop-shadow-lg text-3xl md:text-5xl font-bold text-center">
           Agilidade e Comprometimento no <br class="hidden md:block" />
-          <span class="text-red-500">Transporte Nacional</span> e <span class="text-red-500">Internacional</span>.
+          <span class="text-red-500">Transporte Nacional</span>.
         </h1>
-        <a href="#servicos" class="px-4 py-2 outline-none outline-red-500 inline-flex items-center gap-x-2 text-white font-bold bg-red-500 rounded-md">
+        <a href="#servicos" class="text-sm md:text-base px-2 md:px-4 py-1 md:py-2 outline-none outline-red-500 inline-flex items-center gap-x-2 text-white font-bold bg-red-500 rounded-md">
           <span>Conheça nossos serviços</span>
           <img src="assets/icons/arrow-right.svg" alt="Ir até serviços" class="w-8 h-auto" />
         </a>
       </div>
     </section>
-    <main class="container mx-auto">
+    <main class="mt-10 md:mt-0 container mx-auto">
       <!-- Company -->
       <section id="sobre-empresa">
         <h2 class="sr-only">Sobre a Empresa</h2>
@@ -41,7 +45,7 @@
           <div class="col-auto flex flex-col justify-center items-center min-h-[20rem]">
             <div class="w-3/4">
               <h3 class="font-bold text-xl mb-4">VLL Transportes</h3>
-              <p class="text-lg text-slate-600">A VLL Transportes é uma empresa com 8 anos de experiência, especializada no transporte rodoviário de cargas. Localizada em Santos, SP, nossa missão é fornecer soluções logísticas seguras, ágeis e eficientes para empresas de todo o Brasil e também no âmbito internacional.</p>
+              <p class="text-lg text-slate-600">A VLL Transportes é uma empresa com 8 anos de experiência, especializada no transporte rodoviário de cargas. Localizada em Santos, SP, nossa missão é fornecer soluções logísticas seguras, ágeis e eficientes para empresas de todo o Brasil.</p>
             </div>
           </div>
           <div class="col-auto flex flex-col justify-center items-center min-h-[15rem]">
@@ -53,35 +57,25 @@
         <h2 class="sr-only">Por que a VLL Transportes</h2>
         <p class="text-3xl font-bold mb-4">Por que a VLL Transportes?</p>
         <div class="gap-10 grid grid-cols-1 md:grid-cols-2">
-          <div class="bg-slate-100 flex flex-col justify-center p-4 px-6 rounded-md">
-            <p class="font-bold text-lg mb-4">1. Segurança e Transparência</p>
-            <p class="text-lg text-slate-600">Oferecemos monitoramento constante e informações claras sobre o status das cargas, proporcionando confiança e tranquilidade para nossos clientes.</p>
+          <div class="bg-slate-100 flex flex-col place-items-center p-4 px-6 rounded-md">
+            <img src="assets/icons/truck-list.svg" alt="Ícone de caminhão" class="w-10 mb-6 h-auto" />
+            <p class="inline-flex gap-x-2 font-bold text-lg mb-4">Segurança e Transparência</p>
+            <p class="text-lg text-slate-600 text-center">Oferecemos monitoramento constante e informações claras sobre o status das cargas, proporcionando confiança e tranquilidade para nossos clientes.</p>
           </div>
-          <div class="bg-slate-100 flex flex-col justify-center p-4 px-6 rounded-md">
-            <p class="font-bold text-lg mb-4">2. Equipe Altamente Qualificada</p>
-            <p class="text-lg text-slate-600">Nossa equipe conta com motoristas verificados e treinados, além de profissionais experientes em logística, garantindo um transporte seguro e eficiente para todas as operações.</p>
+          <div class="bg-slate-100 flex flex-col place-items-center p-4 px-6 rounded-md">
+            <img src="assets/icons/stamp-list.svg" alt="Ícone de selo" class="w-10 mb-6 h-auto" />
+            <p class="inline-flex gap-x-2 font-bold text-lg mb-4">Equipe Altamente Qualificada</p>
+            <p class="text-lg text-slate-600 text-center">Nossa equipe conta com motoristas verificados e treinados, além de profissionais experientes em logística, garantindo um transporte seguro e eficiente para todas as operações.</p>
           </div>
-          <div class="bg-slate-100 flex flex-col justify-center p-4 px-6 rounded-md">
-            <p class="font-bold text-lg mb-4">3. Serviços e Transportes Personalizados</p>
-            <p class="text-lg text-slate-600">Especializados no transporte rodoviário de cargas, oferecemos soluções que atendem desde operações intermunicipais e interestaduais até transportes internacionais.</p>
+          <div class="bg-slate-100 flex flex-col place-items-center p-4 px-6 rounded-md">
+            <img src="assets/icons/handshake-list.svg" alt="Ícone de acordo" class="w-10 mb-6 h-auto" />
+            <p class="inline-flex gap-x-2 font-bold text-lg mb-4">Experiência e Credibilidade</p>
+            <p class="text-lg text-slate-600 text-center">Com mais de 8 anos de experiência no mercado, a VLL Transportes é referência em soluções seguras e eficientes de transporte rodoviário. Atendemos empresas em todo o Brasil, oferecendo um serviço comprometido com a pontualidade, qualidade e segurança.</p>
           </div>
-          <div class="bg-slate-100 flex flex-col justify-center p-4 px-6 rounded-md">
-            <p class="font-bold text-lg mb-4">4. Experiência e Credibilidade</p>
-            <p class="text-lg text-slate-600">Com 8 anos de atuação no mercado, a VLL Transportes oferece soluções confiáveis de transporte rodoviário para empresas em todo o Brasil e no exterior. Nossa sede está estrategicamente localizada em Santos, SP, na Avenida Eleonor Roosevelt, 214.</p>
-          </div>
-        </div>
-      </section>
-      <!-- Routers -->
-      <section id="rotas" class="mb-20">
-        <h2 class="sr-only">Principais Rotas</h2>
-        <div class="p-5 md:p-10 bg-slate-50">
-          <div class="space-y-4">
-            <h2 class="text-4xl font-bold mb-4">Principais Rotas</h2>
-            <p class="text-slate-700 text-lg md:text-xl">
-              Oferecemos uma ampla cobertura para <br />
-              o transporte de em diversas rotas estratégicas pelo país. <br />
-            </p>
-            <p class="text-slate-700 text-lg md:text-xl">Nossa empresa se especializa nas principais rotas de entrega, atendendo <br /><strong>São Bernardo do Campo, Diadema, São Paulo, Arujá, Guarulhos, Itapeva, Goiás e Extrema</strong>.</p>
+          <div class="bg-slate-100 flex flex-col place-items-center p-4 px-6 rounded-md">
+            <img src="assets/icons/path-list.svg" alt="Ícone de rota" class="w-10 mb-6 h-auto" />
+            <p class="inline-flex gap-x-2 font-bold text-lg mb-4">Rotas</p>
+            <p class="text-lg text-slate-600 text-center">Oferecemos ampla e confiável cobertura para transportes em todo o Brasil, garantindo segurança, agilidade e eficiência em cada entrega, com suporte especializado para atender suas necessidades logísticas.</p>
           </div>
         </div>
       </section>
@@ -100,61 +94,88 @@
           </div>
           <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
             <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
-              <div class="w-fit p-4 mb-4 bg-red-100 rounded-3xl">
-                <img class="w-12" src="assets/icons/truck.svg" alt="Ícone de caminhão" />
-              </div>
               <div class="space-y-4">
                 <p class="font-bold text-xl group-hover:text-slate-50">Transporte Nacional</p>
+                <img src="assets/images/red-truck-service.jpg" alt="Imagem de caminhão" class="w-full h-[15rem] object-cover rounded-md" />
                 <p class="text-lg text-slate-700 group-hover:text-slate-200">Oferecemos transporte rodoviário nacional rápido e seguro para qualquer destino no Brasil. Com uma frota moderna e motoristas qualificados, garantimos entregas dentro do prazo e em perfeito estado.</p>
               </div>
             </div>
             <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
-              <div class="w-fit p-4 mb-4 bg-red-100 rounded-3xl">
-                <img class="w-12" src="assets/icons/shipping-container.svg" alt="Ícone de container" />
-              </div>
               <div class="space-y-4">
                 <p class="font-bold text-xl group-hover:text-slate-50">Exportação e Importação</p>
+                <img src="assets/images/white-truck-service.jpg" alt="Imagem de caminhão" class="w-full h-[15rem] object-cover rounded-md" />
                 <p class="text-lg text-slate-700 group-hover:text-slate-200">Oferecemos serviços completos de exportação e importação, garantindo agilidade e segurança em cada etapa do processo. Cuidamos de todos os trâmites alfandegários e administrativos para que sua mercadoria chegue ao destino com eficiência e dentro do prazo.</p>
               </div>
             </div>
             <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
-              <div class="w-fit p-4 mb-4 bg-red-100 rounded-3xl">
-                <img class="w-12" src="assets/icons/shipping-container.svg" alt="Ícone de container" />
-              </div>
               <div class="space-y-4">
                 <p class="font-bold text-xl group-hover:text-slate-50">Declaração de Importação (DI)</p>
+                <img src="assets/images/cluse-up-engineers-meeting.jpg" alt="Imagem de trabalhadores conversando" class="w-full h-[15rem] object-cover rounded-md" />
                 <p class="text-lg text-slate-700 group-hover:text-slate-200">Preparamos e gerenciamos a Declaração de Importação (DI), assegurando que todas as informações estejam em conformidade com as exigências legais e regulamentares. Nossa equipe especializada acompanha todo o processo, proporcionando segurança jurídica e tranquilidade para sua empresa.</p>
               </div>
             </div>
             <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
-              <div class="w-fit p-4 mb-4 bg-red-100 rounded-3xl">
-                <img class="w-12" src="assets/icons/shipping-container.svg" alt="Ícone de container" />
-              </div>
               <div class="space-y-4">
                 <p class="font-bold text-xl group-hover:text-slate-50">Declaração de Trânsito Aduaneiro (DTA)</p>
+                <img src="assets/images/man-with-a-clipboard.jpg" alt="Imagem de homem com uma prancheta" class="w-full h-[15rem] object-cover rounded-md" />
                 <p class="text-lg text-slate-700 group-hover:text-slate-200">Facilitamos o processo de Declaração de Trânsito Aduaneiro (DTA) com eficiência e precisão, garantindo que as mercadorias em trânsito entre aduanas cheguem ao destino final sem atrasos ou complicações. Nossa expertise assegura o cumprimento de todas as exigências aduaneira.</p>
               </div>
+            </div>
+            <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
+              <div class="space-y-4">
+                <p class="font-bold text-xl group-hover:text-slate-50">Estufagem</p>
+                <img src="assets/images/stuffing.jpg" alt="Imagem de trabalhadores conversando" class="w-full h-[15rem] object-cover rounded-md" />
+                <p class="text-lg text-slate-700 group-hover:text-slate-200">Oferecemos o serviço de estufagem com precisão e segurança. Nossa equipe especializada realiza o carregamento de contêineres, otimizando o espaço e garantindo que sua mercadoria esteja protegida durante o transporte.</p>
+              </div>
+            </div>
+            <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
+              <div class="space-y-4">
+                <p class="font-bold text-xl group-hover:text-slate-50">Desova em Terminais</p>
+                <img src="assets/images/spawning-at-terminals.jpg" alt="Imagem de homem descarregando caixas" class="w-full h-[15rem] object-cover rounded-md" />
+                <p class="text-lg text-slate-700 group-hover:text-slate-200">Contamos com profissionais experientes para realizar a desova em terminais de forma ágil e cuidadosa, assegurando que sua carga seja descarregada e distribuída com eficiência, respeitando todas as normas de segurança.</p>
+              </div>
+            </div>
+            <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
+              <div class="space-y-4">
+                <p class="font-bold text-xl group-hover:text-slate-50">Transporte de Carga Dedicada</p>
+                <img src="assets/images/dedicated-cargo-transportation.jpg" alt="Imagem de homem do lado do caminhão" class="w-full h-[15rem] object-cover rounded-md" />
+                <p class="text-lg text-slate-700 group-hover:text-slate-200">Oferecemos transporte exclusivo e personalizado para suas cargas, com prioridade e segurança. Nossa equipe e frota dedicadas garantem que sua mercadoria chegue ao destino conforme suas necessidades e prazos.</p>
+              </div>
+            </div>
+            <div class="p-8 bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
+              <div class="space-y-4">
+                <p class="font-bold text-xl group-hover:text-slate-50">Transporte de Cargas Especiais</p>
+                <img src="assets/images/special-cargo-transportation.jpg" alt="Imagem de dois caminhões fortes na estrada" class="w-full h-[15rem] object-cover rounded-md" />
+                <p class="text-lg text-slate-700 group-hover:text-slate-200">Transportamos cargas especiais com cuidado extra e equipamentos adequados para garantir que itens delicados, volumosos ou com especificações diferenciadas cheguem ao destino em perfeito estado e dentro do prazo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto mt-4 p-8 w-full md:w-[70%] lg:w-[50%] bg-white hover:bg-red-500 shadow-sm rounded-md group duration-200">
+            <div class="space-y-4">
+              <p class="font-bold text-xl group-hover:text-slate-50">Transporte de Carga de Projeto</p>
+              <img src="assets/images/project-cargo-transportation.jpg" alt="Imagem de mulher dentro de um caminhão" class="w-full h-[15rem] object-cover rounded-md" />
+              <p class="text-lg text-slate-700 group-hover:text-slate-200">Oferecemos soluções customizadas para o transporte de carga de projeto, atendendo às necessidades específicas de cada cliente. Planejamos e executamos a logística de maneira eficiente para que cada etapa do transporte seja realizada com sucesso.</p>
             </div>
           </div>
         </div>
       </section>
       <!-- Footer -->
       <footer class="flex flex-col min-h-[20rem]">
-        <div class="grid grid-cols-1 md:grid-cols-4 place-content-center min-h-[15rem] text-white bg-red-500 p-8 md:px-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 place-content-center min-h-[15rem] text-white bg-red-500 p-8 md:px-20">
           <div class="col-auto">
             <img class="w-24 md:w-32" src="assets/logo.png" alt="VLL Logo" />
             <p class="text-sm mb-4 md:text-lg text-slate-50">Atuação em transportes rodoviários de carga.</p>
           </div>
           <div class="col-auto flex flex-col md:text-right md:items-end">
-            <p class="md:text-lg font-bold mb-5">Contatos</p>
+            <p class="md:text-lg font-bold mt-5 mb-5">Contatos</p>
             <ul class="space-y-4">
               <li class="inline-flex gap-x-1">
-                <p>comercial@vlltransportes.com.br</p>
+                <a href="mailto:comercial@vlltransportes.com.br">Email</a>
               </li>
             </ul>
           </div>
           <div class="col-auto flex flex-col md:text-right md:items-end">
-            <p class="md:text-lg font-bold mb-5">Redes Sociais</p>
+            <p class="md:text-lg font-bold mt-5 mb-5">Redes Sociais</p>
             <ul class="space-y-4">
               <li class="inline-flex gap-x-1">
                 <img src="assets/icons/instagram.svg" alt="Instagram logo" class="w-6 h-auto" />
@@ -163,7 +184,15 @@
             </ul>
           </div>
           <div class="col-auto flex flex-col md:text-right md:items-end">
-            <p class="md:text-lg font-bold mt-5 md:mt-0 mb-5">Começe Aqui</p>
+            <p class="md:text-lg font-bold mt-5 mb-5">Localização</p>
+            <ul class="space-y-4">
+              <li class="inline-flex gap-x-1">
+                <p>Santos, SP, na Avenida Eleonor Roosevelt, 214</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto flex flex-col md:text-right md:items-end">
+            <p class="md:text-lg font-bold mt-5 mb-5">Começe Aqui</p>
             <ul class="space-y-4">
               <li>
                 <a href="./index.html" class="font-medium hover:text-white">Início</a>
@@ -176,7 +205,7 @@
                 <a href="#rotas" class="font-medium hover:text-white">Principais Rotas</a>
               </li>
               <li>
-                <a href="/quotation" class="inline-flex gap-x-1 p-2 px-4 bg-white text-slate-600 rounded-md">
+                <a href="/quotation/" class="inline-flex gap-x-1 p-2 px-4 bg-white text-slate-600 rounded-md">
                   <img src="assets/icons/calculator.svg" alt="calculator icon" class="md:block w-6 h-auto" />
                   <span class="font-medium">Solicitar Cotação</span>
                 </a>
@@ -184,28 +213,30 @@
             </ul>
           </div>
         </div>
-        <div class="border-t-4 mb-12 text-center border-slate-200 bg-slate-50 flex justify-center items-center gap-x-1 min-h-[5rem]">
-          <p class="text-slate-800 text-sm">&copy; 2024 VLLTransportes. Todos os direitos reservados.</p>
+        <div class="border-t-4 mb-12 text-center border-slate-200 bg-slate-50 flex justify-center items-center min-h-[5rem]">
           <p class="text-slate-800 text-sm">
-            Desenvolvido por
-            <a href="https://www.fourand.com/" class="font-semibold text-red-500 hover:underline">Fourand</a>.
+            &copy; 2024 VLL Transportes. Todos os direitos reservados.
+            <span class="text-slate-800 text-sm">
+              Desenvolvido por
+              <a href="https://www.fourand.com/" class="font-semibold text-red-500 hover:underline">Fourand</a>.
+            </span>
           </p>
         </div>
       </footer>
     </main>
     <!-- Fixed Footer -->
-    <footer class="hidden md:block fixed w-full bg-white bottom-0">
-      <div class="grid grid-cols-2">
+    <footer class="fixed w-full bg-white bottom-0">
+      <div class="md:grid grid-cols-2">
         <div class="flex justify-center bg-slate-100 hover:bg-slate-200 p-2 border-white border-r-2">
-          <a href="/quotation" class="inline-flex items-center gap-x-2">
+          <a href="/quotation/" class="inline-flex items-center gap-x-2">
             <img src="assets/icons/map-pin-area.svg" class="w-10 h-auto" alt="pin area icon" />
             <span>Contactar preçificação de rota</span>
           </a>
         </div>
-        <div class="flex justify-center bg-slate-100 hover:bg-slate-200 p-2">
+        <div class="hidden md:flex justify-center bg-slate-100 hover:bg-slate-200 p-2">
           <a target="_blank" class="inline-flex items-center gap-x-2" href="https://wa.me/5513974046491?text=Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os.">
             <img src="assets/icons/whatsapp.svg" class="w-10 h-auto" alt="Whatsapp logo" />
-            <span>Falar com um consultor de transporte</span>
+            <span>Falar com um especialista</span>
           </a>
         </div>
       </div>
