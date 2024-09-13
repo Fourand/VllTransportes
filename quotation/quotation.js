@@ -30,7 +30,7 @@ function validateField(field, errorField) {
 }
 
 function truckName(truckType){
-  types = {
+  const types = {
     "CA": "Carreta Aberta",
     "CB": "Carreta Baú",
     "CS": "Carreta Sider",
