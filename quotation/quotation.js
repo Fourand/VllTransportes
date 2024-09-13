@@ -47,7 +47,7 @@ setupErrorFields(errorFields);
 
 function sendEmail(fullname, office, company, email, telephone, truckType) {
   emailjs
-    .send("service_ipwxc96", "service_ipwxc96", {
+    .send("service_y7z01xy", "template_den9zak", {
       message: `
         <li><span class="important">Nome Completo:</span> ${fullname}</li>
         <li><span class="important">Cargo:</span> ${office}</li>
