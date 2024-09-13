@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init("aMk_Ubx-5Vs8I0Bvp");
+  emailjs.init("EFbxnhP6SxgkDX5THckb6");
 })();
 
 const form = document.getElementById("quotationForm");
@@ -30,7 +30,7 @@ function validateField(field, errorField) {
 }
 
 function truckName(truckType){
-  truck_types = {
+  types = {
     "CA": "Carreta Aberta",
     "CB": "Carreta Baú",
     "CS": "Carreta Sider",
@@ -40,7 +40,7 @@ function truckName(truckType){
     "CTK": "Caminhão Truck",
     "CV": "Caminhão VUC"
   }
-  return truck_types[truckType]
+  return types[truckType]
 }
 
 setupErrorFields(errorFields);
