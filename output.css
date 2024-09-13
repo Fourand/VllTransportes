@@ -910,32 +910,14 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
 .\!hidden {
   display: none !important;
-=======
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-\[15rem\] {
-  height: 15rem;
-}
-
-.h-\[calc\(100vh-55px\)\] {
-  height: calc(100vh - 55px);
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 }
 
 .h-auto {
   height: auto;
 }
 
-<<<<<<< HEAD
 .h-3 {
   height: 0.75rem;
 }
@@ -948,8 +930,6 @@ video {
   height: calc(100vh - 55px);
 }
 
-=======
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .h-full {
   height: 100%;
 }
@@ -968,13 +948,6 @@ video {
   height: 100vh;
 }
 
-<<<<<<< HEAD
-=======
-.min-h-\[10rem\] {
-  min-height: 10rem;
-}
-
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .min-h-\[15rem\] {
   min-height: 15rem;
 }
@@ -1080,7 +1053,6 @@ video {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .w-1 {
   width: 0.25rem;
 }
@@ -1093,8 +1065,6 @@ video {
   width: calc(100vw - 100px);
 }
 
-=======
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .w-screen {
   width: 100vw;
 }
@@ -2233,13 +2203,10 @@ video {
   background-color: rgb(255 255 255 / 0.9);
 }
 
-<<<<<<< HEAD
 .bg-transparent {
   background-color: transparent;
 }
 
-=======
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }
@@ -2435,7 +2402,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2446,8 +2412,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-=======
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2915,16 +2879,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-<<<<<<< HEAD
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-=======
-.\!outline-none {
-  outline: 2px solid transparent !important;
-  outline-offset: 2px !important;
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 }
 
 .outline-none {
@@ -3074,7 +3032,6 @@ video {
   transition-duration: 150ms;
 }
 
-<<<<<<< HEAD
 .\!transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter !important;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
@@ -3083,8 +3040,6 @@ video {
   transition-duration: 150ms !important;
 }
 
-=======
->>>>>>> f35b7853e27d762ff383d87d91eb58e6e4f64101
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
