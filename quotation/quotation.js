@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init("EFbxnhP6SxgkDX5THckb6");
+  emailjs.init("aMk_Ubx-5Vs8I0Bvp");
 })();
 
 const form = document.getElementById("quotationForm");
