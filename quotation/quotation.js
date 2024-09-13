@@ -48,14 +48,12 @@ setupErrorFields(errorFields);
 function sendEmail(fullname, office, company, email, telephone, truckType) {
   emailjs
     .send("service_y7z01xy", "template_den9zak", {
-      message: `
-        <li><span class="important">Nome Completo:</span> ${fullname}</li>
-        <li><span class="important">Cargo:</span> ${office}</li>
-        <li><span class="important">Empresa:</span> ${company}</li>
-        <li><span class="important">E-mail:</span> ${email}</li>
-        <li><span class="important">Telefone:</span> ${telephone}</li>
-        <li><span class="important">Tipo de Caminhão:</span> ${truckName(truckType)}</li>
-        `
+      fullname: fullname,
+      office: office,
+      company: company,
+      email: email,
+      telephone: telephone,
+      truckType: truckName(truckType)
     })
     .then(
       (response) => {},
