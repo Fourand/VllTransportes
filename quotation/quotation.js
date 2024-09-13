@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init("WuX-hzY72tGqWPzE7");
+  emailjs.init("aMk_Ubx-5Vs8I0Bvp");
 })();
 
 const form = document.getElementById("quotationForm");
@@ -29,21 +29,33 @@ function validateField(field, errorField) {
   return true;
 }
 
+function truckName(truckType){
+  truck_types = {
+    "CA": "Carreta Aberta",
+    "CB": "Carreta Baú",
+    "CS": "Carreta Sider",
+    "B": "Bitrem",
+    "R": "Rodotrem",
+    "CT": "Caminhão Toco",
+    "CTK": "Caminhão Truck",
+    "CV": "Caminhão VUC"
+  }
+  return truck_types[truckType]
+}
+
 setupErrorFields(errorFields);
 
 function sendEmail(fullname, office, company, email, telephone, truckType) {
   emailjs
-    .send("service_h8lmgho", "template_bw5bymk", {
-      message: `Olá Lucas! Me chamo ${fullname},
-
-     Nome Completo: ${fullname}
-     Cargo: ${office}
-     Empresa: ${company}
-     E-mail: ${email}
-     Telefone: ${telephone}
-     Tipo de Caminhão: ${truckType}
-
-     `,
+    .send("service_ipwxc96", "service_ipwxc96", {
+      message: `
+        <li><span class="important">Nome Completo:</span> ${fullname}</li>
+        <li><span class="important">Cargo:</span> ${office}</li>
+        <li><span class="important">Empresa:</span> ${company}</li>
+        <li><span class="important">E-mail:</span> ${email}</li>
+        <li><span class="important">Telefone:</span> ${telephone}</li>
+        <li><span class="important">Tipo de Caminhão:</span> ${truckName(truckType)}</li>
+        `
     })
     .then(
       (response) => {},
